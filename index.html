@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Content!</title>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../unit-4-game/assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+    <body>
+        
+
+            <div id = "crystal">
+              <h1>Crystal Collector!</h1>
+            </div>
+            <div id = "info">
+              <li><p1 class = "textt">You will be given a random number at the start of the game.</p1></li>
+              <li><p2 class = "textt">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p2></li>
+              <li><p3 class = "textt">You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p3></li>
+              <li><p4 class = "textt">The value of each crystal is hidden from you until you click on it.</p4></li>
+              <li><p5 class = "textt">Each time when the game starts, the game will change the values of each crystal.</p5></li>
+            </div>
+            <div class ="winorlose">
+              <div class = "col-md-3" id = "rNumber">
+                
+              </div>
+              <div class = "col-md-4">
+                <div id = "winsorlosses">
+                  <li><p1 id = "nWins">Wins: </p1></li>
+                  <li><p1 id = "nLoss">Losses: </p1></li> 
+                </div>
+              </div> 
+            </div>
+            <div id="buttons" class = "col-md-3">       
+                <img class="image" id="image1" src="../unit-4-game/assets/images/crystal1.png">
+                <img class="image" id="image2" src="../unit-4-game/assets/images/crystal2.png">
+                <img class="image" id="image3" src="../unit-4-game/assets/images/crystal3.png">
+                <img class="image" id="image4" src="../unit-4-game/assets/images/crystal4.png">
+            </div>
+            <div class = "final">
+                  <div id = "userScore">
+                    <p1 id = "scores">Your total score is: </p1>
+                  </div>
+
+                  <div id = "score">
+
+                </div>
+            </div>
+            <script src = "assets/javascript/game.js"></script>
+    </body>
+</html>

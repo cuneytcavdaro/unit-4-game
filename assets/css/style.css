@@ -1,0 +1,58 @@
+*{
+    background-image:url("../images/background.jpg")
+}
+#crystal{
+    background: transparent;
+    text-align: center;
+    color: white;
+}
+#info{
+    padding:10px;
+    line-height: 50px;
+    background: transparent;
+    font-size: 22px;
+    font-family: 'Indie Flower', cursive;
+}
+#info li{
+    background: transparent;
+}
+.image{
+    width: 75px;
+    height: 70px;
+    background: transparent;
+    cursor: pointer;
+}
+#buttons{
+    padding: 10px;
+    width: auto;
+    background: transparent;
+}
+.winorlose{
+    height: 100px;
+    background: transparent;
+    width: 50%;
+}
+.textt{
+    background: transparent;
+    color: white;
+}
+#rNumber{
+    background: transparent;
+    color: white;
+    height: 40px;
+    font-size: 25px;
+
+}
+#winsorlosses,
+#nWins,
+#nLosses{
+    background: transparent;
+    color : white;
+    align-self: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#scores{
+    background: transparent;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+}
